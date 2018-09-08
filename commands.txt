@@ -1,0 +1,6 @@
+sudo su;
+git clone https://github.com/named-data/jndn.git;
+apt-get install maven -y;
+cd jndn;
+mvn package;
+mvn install;
